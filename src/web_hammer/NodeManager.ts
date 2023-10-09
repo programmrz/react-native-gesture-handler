@@ -11,7 +11,7 @@ export function getHandler(tag: number) {
     return gestures[tag];
   }
 
-  throw new Error(`No handler for tag ${tag}`);
+  //throw new Error(`No handler for tag ${tag}`);
 }
 
 export function createGestureHandler(
